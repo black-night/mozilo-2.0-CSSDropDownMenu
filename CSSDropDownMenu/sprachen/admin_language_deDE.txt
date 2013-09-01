@@ -1,0 +1,4 @@
+
+config_CSSDropDownMenu_plugin_name              = black-night - DropDownMenu mit CSS 
+config_CSSDropDownMenu_plugin_desc              = Erstellt ein DropDownMenu<br /><br /><span style="font-weight:bold;">Nutzung:</span><br />{CSSDropDownMenu} im Template einfügen.
+config_CSSDropDownMenu_css                      = CSS f&uuml;r DropDownMenu

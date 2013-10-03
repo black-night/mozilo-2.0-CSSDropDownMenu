@@ -27,7 +27,7 @@ class CSSDropDownMenu extends Plugin {
        
         $syntax->insert_in_head($this->getHead());
 
-        $result = "<div id=\"cssmenu\">";
+        $result = "<div class=\"cssmenu\">";
 		$result .= "<ul>";
 		
 		// Kategorienverzeichnis einlesen
@@ -100,7 +100,7 @@ class CSSDropDownMenu extends Plugin {
         $lang_admin = new Properties($dir."sprachen/admin_language_".$language.".txt",false);        
         $info = array(
             // Plugin-Name
-            "<b>".$lang_admin->get("config_CSSDropDownMenu_plugin_name")."</b> \$Revision: 1 $",
+            "<b>".$lang_admin->get("config_CSSDropDownMenu_plugin_name")."</b> \$Revision: 2 $",
             // CMS-Version
             "2.0",
             // Kurzbeschreibung
@@ -108,7 +108,7 @@ class CSSDropDownMenu extends Plugin {
             // Name des Autors
            "black-night",
             // Download-URL
-            "www.black-night.org",
+            array("http://software.black-night.org","Software by black-night"),
             # Platzhalter => Kurzbeschreibung
             array('{CSSDropDownMenu}' => $lang_admin->get("config_CSSDropDownMenu_plugin_name"))
             );

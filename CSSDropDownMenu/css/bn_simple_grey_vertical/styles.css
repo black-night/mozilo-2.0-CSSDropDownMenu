@@ -1,4 +1,4 @@
-#cssmenu {
+.cssmenu {
   border: 0px solid #000000;
   background: #C0C0C0;  
   width: 150px;
@@ -7,7 +7,7 @@
   background-image: -o-linear-gradient(top, #C0C0C0 0%, #808080 70%);
   background-image: linear-gradient(top, #C0C0C0 0%, #808080 70%);
 }
-#cssmenu > ul {
+.cssmenu > ul {
   padding: 0px 0;
   margin: 0px;
   list-style: none;
@@ -17,7 +17,7 @@
   font-weight:bold;
   
 }
-#cssmenu > ul li {
+.cssmenu > ul li {
   margin: 0;
   padding: 0;
   display: block;
@@ -25,8 +25,8 @@
   width: 150px;  
     
 }
-#cssmenu > ul li a:link,
-#cssmenu > ul li a:visited {
+.cssmenu > ul li a:link,
+.cssmenu > ul li a:visited {
   padding: 5px 0px 0px 0px;
   display: block;
   text-align: center;
@@ -40,16 +40,16 @@
   background-image: -o-linear-gradient(left, #C0C0C0 0%, #808080 70%);
   background-image: linear-gradient(left, #C0C0C0 0%, #808080 70%);
 }
-#cssmenu > ul li.active a {
+.cssmenu > ul li.active a {
   background: #808080;
   background-image: -moz-linear-gradient(left, #B2B2B2 0%, #727272 70%);
   background-image: -webkit-linear-gradient(left, #B2B2B2 0%, #727272 70%);
   background-image: -o-linear-gradient(left, #B2B2B2 0%, #727272 70%);
   background-image: linear-gradient(left, #B2B2B2 0%, #727272 70%);      
 }
-#cssmenu > ul li:hover a,
-#cssmenu > ul li a:hover,
-#cssmenu > ul li a:active {
+.cssmenu > ul li:hover a,
+.cssmenu > ul li a:hover,
+.cssmenu > ul li a:active {
   padding: 5px 0px 0px 0px;    
   display: block;
   text-align: center;
@@ -62,14 +62,14 @@
   margin-left : -4px;  
   border-left: 4px solid #606060;  
 }
-#cssmenu > ul li.has-sub:hover a,
-#cssmenu > ul li.has-sub a:hover,
-#cssmenu > ul li.has-sub a:active {
+.cssmenu > ul li.has-sub:hover a,
+.cssmenu > ul li.has-sub a:hover,
+.cssmenu > ul li.has-sub a:active {
   padding: 5px 0px 0px 0px;
   margin-left : -4px;  
   border-left: 4px solid #606060;  
 }
-#cssmenu > ul li ul {
+.cssmenu > ul li ul {
   border-top: 4px solid #606060;	
   margin-left : 150px;
   padding: 0px 0px 0px 0px;
@@ -79,16 +79,16 @@
   position: absolute;
   top: 0px;
 }
-#cssmenu > ul li:hover ul {
+.cssmenu > ul li:hover ul {
   display: block;
 }
-#cssmenu > ul li ul li {
+.cssmenu > ul li ul li {
   margin-left : 4px;	
   clear: left;
   width: 150px;
 }
-#cssmenu > ul li ul li a:link,
-#cssmenu > ul li ul li a:visited {
+.cssmenu > ul li ul li a:link,
+.cssmenu > ul li ul li a:visited {
   clear: left;
   background: #C0C0C0;
   padding: 5px 0px 0px 0px;
@@ -101,20 +101,20 @@
   background-image: -o-linear-gradient(left, #C0C0C0 0%, #808080 70%);
   background-image: linear-gradient(left, #C0C0C0 0%, #808080 70%);
 }
-#cssmenu > ul li ul li.active a {
+.cssmenu > ul li ul li.active a {
   background: #808080;
   background-image: -moz-linear-gradient(left, #B2B2B2 0%, #727272 70%);
   background-image: -webkit-linear-gradient(left, #B2B2B2 0%, #727272 70%);
   background-image: -o-linear-gradient(left, #B2B2B2 0%, #727272 70%);
   background-image: linear-gradient(left, #B2B2B2 0%, #727272 70%);
 }  
-#cssmenu > ul li ul li.last, 
-#cssmenu > ul li ul li.last a {
+.cssmenu > ul li ul li.last, 
+.cssmenu > ul li ul li.last a {
   border-bottom-right-radius: 20px 20px;
 }
-#cssmenu > ul li ul li:hover a,
-#cssmenu > ul li ul li a:active,
-#cssmenu > ul li ul li a:hover {
+.cssmenu > ul li ul li:hover a,
+.cssmenu > ul li ul li a:active,
+.cssmenu > ul li ul li a:hover {
   clear: left;
   background: #606060;
   padding: 5px 0px 0px 0px;

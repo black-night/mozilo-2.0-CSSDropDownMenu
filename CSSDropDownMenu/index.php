@@ -38,7 +38,7 @@ class CSSDropDownMenu extends Plugin {
 			$PageArray = $CatPage->get_PageArray($CategoriesArray[$i]);
 			$CountPageIndex = count($PageArray)-1;
 			$result .= "<li".$this->getLiClass(($i == $CountCategoriesIndex),($CountPageIndex >= 0),$CatPage->is_Activ($CategoriesArray[$i],false)).">";
-			if ($CatPage->get_Type($CategoriesArray[$i],false) == 'cat') {
+			if (($CatPage->get_Type($CategoriesArray[$i],false) == 'cat') and ($CountPageIndex >= 0)) {
 				$result .= "<a href=\"#\">".$CatPage->get_HrefText($CategoriesArray[$i],false)."</a>";
 			}else{
 				$result .= "<a href=\"".$CatPage->get_Href($CategoriesArray[$i],false)."\" target=\"".$CatPage->get_HrefTarget($CategoriesArray[$i],false)."\">".$CatPage->get_HrefText($CategoriesArray[$i],false)."</a>";
